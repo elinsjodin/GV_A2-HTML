@@ -41,11 +41,33 @@
             </div>
           </div>
         </div>
+        <div class="landing-page-web">
+          <div class="nav-div-web">
+            <nav class="nav-web">
+              <img src="assets/Logo.png" alt="Logo" />
+              <div class="shopping-cart-div">
+                <span class="login-btn">Shop</span>
+                <span class="login-btn"></span><a class="menu-contact" href="#main-contact-wrapper">Contact</a></span>
+                <span class="login-btn">About</span>
+                <span class="login-btn">Login</span>
+                <i class="bi bi-cart"></i>
+              </div>
+            </nav>
+          </div>
+          <hr class="main-hr" />
+          <div class="main-logo-wrapper">
+          <div class="logo-div">
+            <img src="assets/Amethyst-Web.png" alt="Amethyst" width="400px">
+            <img src="assets/Slogan-Web.png" alt="Slogan" width="300px"/>
+          </div>
+      </div>
+      </div>
         <hr class="light-hr" />
+        <div class="text-img-row">
         <div class="bottle-div-1">
-          <div class="clear-quartz-bottle">
+          <div class="bottle">
             <img
-              src="assets/Bottle-ClearQuartz.jpg"
+              src="assets/Bottle-ClearQuartz.png"
               alt="Glass Bottle"
               width="300px"
             />
@@ -54,7 +76,7 @@
             <p>Glass Water Bottle - 1 l</p>
           </div>
         </div>
-        <div class="text-div">
+        <div class="text-div-1">
           <div class="product-text">
             <img src="assets/Ellipse grey-m.png" alt="Ellipse" />
             <p>
@@ -63,11 +85,13 @@
             </p>
           </div>
         </div>
+      </div>
         <hr class="light-hr" />
+        <div class="text-img-row">
         <div class="bottle-div-2">
-          <div class="rose-quartz-bottle">
+          <div class="bottle">
             <img
-              src="assets/Bottle-RoseQuartz.jpg"
+              src="assets/Bottle-RoseQuartz.png"
               alt="Glass Bottle"
               width="300px"
             />
@@ -76,7 +100,7 @@
             <p>Glass Water Bottle - 1 l</p>
           </div>
         </div>
-        <div class="text-div">
+        <div class="text-div-2">
           <div class="product-text">
             <img src="assets/Ellipse pink-m.png" alt="Ellipse" />
             <p>
@@ -85,11 +109,13 @@
             </p>
           </div>
         </div>
+        </div>
         <hr class="light-hr" />
+        <div class="text-img-row">
         <div class="bottle-div-3">
-          <div class="amethyst-bottle">
+          <div class="bottle">
             <img
-              src="assets/Bottle-Amethyst.jpg"
+              src="assets/Bottle-Amethyst.png"
               alt="Glass Bottle"
               width="300px"
             />
@@ -98,38 +124,71 @@
             <p>Glass Water Bottle - 1 l</p>
           </div>
         </div>
-        <div class="text-div">
+        <div class="text-div-3">
           <div class="product-text">
-            <div class="ellipse-div">
-              <img src="assets/Ellipse lilac-m.png" alt="Ellipse" />
-            </div>
-            <div class="crystal-info">
-              <p>
-                Amethyst is the gem for connecting to a higher spiritual level
-                and is associated with serenity, trust and grace.
-              </p>
-            </div>
+            <img src="assets/Ellipse lilac-m.png" alt="Ellipse" />
+            <p>
+              Amethyst is the gem for connecting to a higher spiritual level and
+              is associated with serenity, trust and grace.
+            </p>
           </div>
+        </div>
         </div>
         <hr class="light-hr" />
         <div class="newsletter-div">
           <div class="subscribe-div">
-            <label for="form">
+            <label class="label-form" for="form">
               <b
                 >Subscribe to our exclusive newsletter for the latest updates
                 and promos!</b
               ></label
             >
             <form action="post" name="form">
-              <label for="email"
+              <label class="label-sub-email" for="email"
                 ><i class="bi bi-gem"></i> Enter your email here:</label
               >
-              <input type="email" name="email" id="email-sub-input" />
+              <input class="sub-email" type="email" name="email" id="email-sub-input" />
               <input type="submit" value="Subcribe!" class="sub" />
             </form>
           </div>
         </div>
-        <footer class="mobile-footer">
+        <div id="main-contact-wrapper">
+          <h2>Contact us with any questions</h2>
+          <div class="contact-div">
+            <div class="form-div">
+              <form class="form" action="post" method="post">
+                <label for="name">Name: </label>
+                <input
+                  class="form-input"
+                  type="text"
+                  name="name"
+                  id="name"
+                  placeholder="First Last"
+                />
+                <label for="email">Email: </label>
+                <input
+                  class="form-input"
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="name@email.com"
+                />
+                <label for="q-field">Question: </label>
+                <textarea
+                  name="q-field"
+                  id="q-field"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+                <input class="contact-sub" type="submit" value="Submit" />
+              </form>
+            </div>
+            <div class="card">
+              <img class="card-img" src="assets/Contact-Card-Web.png" alt="Contact Card" />
+            </div>
+          </div>
+        </div>
+        <footer class="footer-mobile">
           <div class="footer-columns">
             <div class="footer-col-1">
               <span
@@ -137,7 +196,7 @@
                 <p>About us</p>
                 <p>Our Philosophy</p>
                 <p>Career</p>
-                <p>Contact</p>
+                <a href="#main-contact-wrapper"><p>Contact</p></a>
               </span>
             </div>
             <div class="footer-col-2">
@@ -177,7 +236,57 @@
             <span>Customer Service 050 - 050 00</span>
           </div>
         </footer>
-      </div>
-    </div>
-  </body>
-</html>
+          <footer class="main-footer-web">
+          <div class="footer-web">
+            <div class="footer-columns">
+              <div class="footer-col-1">
+                <span
+                  ><b>WaterCrystal</b>
+                  <p>About us</p>
+                  <p>Our Philosophy</p>
+                  <p>Career</p>
+                  <a href="#main-contact-wrapper"><p>Contact</p></a>
+                </span>
+              </div>
+              <div class="footer-col-2">
+                <span
+                  ><b>WaterCrystal</b>
+                  <p>Terms and Conditions</p>
+                  <p>Return Policy</p>
+                  <p>Membership</p>
+                  <p>Cookies</p>
+                </span>
+              </div>
+              <div class="main-new-and-social">
+                <div class="new-and-social">
+                  <div class="packaging">
+                    <span class="checkout-new"
+                      ><b>Psst..!</b> Checkout our new eco-friendly packaging
+                      <i class="bi bi-arrow-right"></i
+                    ></span>
+                  </div>
+                  <div class="packaging-img">
+                    <img src="assets/Packaging.png" alt="Packaging" width="80px" />
+                  </div>
+                </div>
+                <div class="social-media">
+                  <p><b>Find us on Social Media</b></p>
+                  <div class="social-icons">
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-facebook"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="copyright">
+              <span>Copyright &#169; WaterCrystal 2022</span>
+              <span>|</span>
+              <span>Customer Service 050 - 050 00</span>
+            </div>
+          </div>
+          </footer>
+                </div>
+              </div>
+            </body>
+          </html>
