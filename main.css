@@ -1,0 +1,234 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.main-div {
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  background-color: #f3eaef;
+}
+
+.landing-page-mobile {
+  width: 100%;
+  height: 100%;
+  flex-grow: 1;
+}
+
+.nav-div {
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 410px;
+}
+
+.hamburger-menu-div {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  gap: 5px;
+}
+
+.menu-hr {
+  background-color: black;
+  height: 1px;
+  width: 30px;
+}
+
+.shopping-cart-div {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.main-hr {
+  background-color: black;
+  height: 1px;
+  margin-top: 20px;
+}
+
+.light-hr {
+  background-color: #f5f1f4;
+  height: 0.1px;
+}
+
+.main-logo-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+}
+
+.logo-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+  align-items: center;
+}
+
+.bottle-div-1 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #f5f1f4;
+}
+.bottle-div-2 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #e8cee2;
+}
+.bottle-div-3 {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: #a57aa65c;
+}
+
+.clear-quartz-bottle,
+.rose-quartz-bottle,
+.amethyst-bottle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #fff8f8;
+}
+
+.product-text {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  width: 60%;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 39px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.newsletter-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3eaef;
+  height: 150px;
+}
+
+.subscribe-div {
+  display: flex;
+  flex-direction: column;
+  align-content: space-evenly;
+  align-items: center;
+  gap: 25px;
+}
+
+#email-sub-input {
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-left-style: hidden;
+  border-bottom-style: solid;
+  background-color: #f3eaef;
+}
+
+#email-sub-input:focus {
+  outline: none;
+}
+
+.sub {
+  background-color: #f3eaef;
+  border: none;
+}
+
+.sub:hover {
+  background-color: #a57aa65c;
+  border: 0.5px solid #a57aa6cd;
+  cursor: pointer;
+}
+
+.mobile-footer {
+  padding: 10px;
+  background-color: #fff8f8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-columns {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 230px;
+}
+
+.footer-col-1,
+.footer-col-2 {
+  line-height: 40px;
+}
+
+.main-new-and-social {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 80px;
+}
+
+.new-and-social {
+  display: flex;
+  flex-direction: row;
+}
+
+.packaging {
+  display: flex;
+  align-items: center;
+  width: 150px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  gap: 10px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.bi-twitter,
+.bi-instagram,
+.bi-facebook {
+  font-size: 25px;
+  color: #a57aa6;
+}
